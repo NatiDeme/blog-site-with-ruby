@@ -1,24 +1,36 @@
-# README
+# Blog App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a repo for a blog site made using ruby
 
-Things you may want to cover:
+## Built With
 
-* Ruby version
+- ![](https://img.shields.io/badge/Github-blueviolet)
+- ![](https://img.shields.io/badge/Ruby-red)
+- ![](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 
-* System dependencies
+## Author
 
-* Configuration
+👤 **Natnael Demelash**
 
-* Database creation
+- GitHub: [@githubhandle](https://github.com/NatiDeme)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/natnael-demelash/)
 
-* Database initialization
+## Setup
 
-* How to run the test suite
+If you wish to run the project locally, please do the following:
 
-* Services (job queues, cache servers, search engines, etc.)
+- Clone the repository to your local machine. - **`git clone https://github.com/Terbeche/Catalog-Ruby-Capstone.git`** - **`cd Catalog-Ruby-Capstone`**
 
-* Deployment instructions
+## 🤝 Contributing
 
-* ...
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Terbeche/Catalog-Ruby-Capstone/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
