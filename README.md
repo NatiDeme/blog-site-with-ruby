@@ -10,16 +10,7 @@ This is a repo for a blog site made using ruby
 
 ## Author
 
-👤 **Hanningtone Pompie**
-
-- GitHub: [@githubhandle](https://github.com/HanningtoneM)
-
-👤 **Terbeche Mostefa**
-
-- GitHub: [@githubhandle](https://github.com/Terbeche)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mustapha-terbeche/)
-
-👤 **Natnael Delelesh**
+👤 **Natnael Demelash**
 
 - GitHub: [@githubhandle](https://github.com/NatiDeme)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/natnael-demelash/)
