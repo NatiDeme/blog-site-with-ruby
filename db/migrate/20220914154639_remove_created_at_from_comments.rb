@@ -1,3 +1,4 @@
+# migration class
 class RemoveCreatedAtFromComments < ActiveRecord::Migration[7.0]
   def change
     remove_column :comments, :created_at, :timestamp
