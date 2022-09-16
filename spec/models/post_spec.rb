@@ -1,4 +1,4 @@
-require 'rails_helper'
+require 'rails_helper' # Return character is CR+LF on Windows.
 
 RSpec.describe Post, type: :model do
   describe 'Post validations' do
