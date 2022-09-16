@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe User, type: :model do
   describe 'User validations' do
-    subject { User.new(name: 'Dupe', photo: 'dupe.png', bio: 'Student.', posts_counter: 0) }
+    subject { User.new(name: 'Dupe', photo: 'dupe.png', bio: 'Student.', PostCounter: 0) }
 
     before { subject.save }
 
@@ -23,7 +23,7 @@ RSpec.describe User, type: :model do
   end
 
   describe 'Should test recent post method' do
-    before { 4.times { |post| Post.create(user_id: subject.id, title: "This is post #{post}") } }
+    before { 4.times { |post| Post.create(author_id: subject.id, title: "This is post #{post}") } }
 
     it 'User should have three recent posts' do
       expect(subject.recent_posts).to eq(subject.posts.last(3))
