@@ -8,6 +8,12 @@ This is a repo for a blog site made using ruby
 - ![](https://img.shields.io/badge/Ruby-red)
 - ![](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 
+## Setup
+
+If you wish to run the project locally, please do the following:
+
+- Clone the repository to your local machine. - **`git clone hhttps://github.com/NatiDeme/blog-site-with-ruby`** - **`cd Cblog-site-with-ruby`**
+
 ### Running the app
 
 - Run `rake db:create:all` and `rake db:migrate`
@@ -26,12 +32,6 @@ This is a repo for a blog site made using ruby
 
 - GitHub: [@githubhandle](https://github.com/NatiDeme)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/natnael-demelash/)
-
-## Setup
-
-If you wish to run the project locally, please do the following:
-
-- Clone the repository to your local machine. - **`git clone https://github.com/Terbeche/Catalog-Ruby-Capstone.git`** - **`cd Catalog-Ruby-Capstone`**
 
 ## 🤝 Contributing
 
