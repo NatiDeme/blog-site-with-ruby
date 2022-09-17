@@ -12,8 +12,7 @@ This is a repo for a blog site made using ruby
 
 If you wish to run the project locally, please do the following:
 
-- Clone the repository to your local machine. - **`git clone hhttps://github.com/NatiDeme/blog-site-with-ruby`** - **`blog-site-with-ruby`**
-
+- Clone the repository to your local machine. - **`git clone hhttps://github.com/NatiDeme/blog-site-with-ruby`** - **`cd blog-site-with-ruby`**
 ### Running the app
 
 - Run `rake db:create:all` and `rake db:migrate`
