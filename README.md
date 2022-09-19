@@ -13,6 +13,7 @@ This is a repo for a blog site made using ruby
 If you wish to run the project locally, please do the following:
 
 - Clone the repository to your local machine. - **`git clone hhttps://github.com/NatiDeme/blog-site-with-ruby`** - **`cd blog-site-with-ruby`**
+
 ### Running the app
 
 - Run `rake db:create:all` and `rake db:migrate`
@@ -21,6 +22,7 @@ If you wish to run the project locally, please do the following:
 - In your browser, go to http://localhost:3000.
 
 ### Testing
+
 - Run gem install rspec to install Rspec,
 - Run rspec spec to run all the test cases, and
 - Run rspec to run test cases individually.
