@@ -16,7 +16,7 @@ RSpec.describe 'Users', type: :request do
       expect(response).to have_http_status(:success)
     end
     it 'Test if action rendered a correct template' do
-     expect(response).to render_template('show')
-   end
+      expect(response).to render_template('show')
+    end
   end
 end
