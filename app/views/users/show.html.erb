@@ -11,3 +11,16 @@
     </div>
   </div>
 
+  <div class="user-det2 border">
+  <h2>Bio</h2>
+  <p class="user-bio"><%= @user.Bio%></p>
+</div>
+
+
+
+<div class="button-cont">
+  <button>
+    <%= link_to "See all posts", user_posts_path(@user), {:class => "button_class"} %>
+  </button>
+</div>
+

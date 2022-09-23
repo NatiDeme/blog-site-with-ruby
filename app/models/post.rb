@@ -5,10 +5,11 @@ class Post < ApplicationRecord
   has_many :likes
   has_many :comments
 
-  belongs_to :user
+  belongs_to :user, class_name: 'User'
+
 
   def update_post_counter
-    user.update(PostCounter: user.posts.size)
+    user.update(:PostCounter)
   end
 
   def recent_comments
