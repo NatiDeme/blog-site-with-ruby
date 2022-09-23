@@ -13,3 +13,13 @@
  *= require_tree .
  *= require_self
  */
+
+.user-img {
+  width: 30px;
+}
+
+.user-cont {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
