@@ -1,5 +1,5 @@
 module PostsHelper
-    def num_of_comment(post)
+  def num_of_comment(post)
     post.comments_counter.present? ? post.comments_counter : 0
   end
 
