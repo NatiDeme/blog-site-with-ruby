@@ -1,9 +1,9 @@
 module PostsHelper
     def num_of_comment(post)
-    post.CommentsCounter.present? ? post.CommentsCounter : 0
+    post.comments_counter.present? ? post.comments_counter : 0
   end
 
   def num_of_likes(post)
-    post.LikesCounter.present? ? post.LikesCounter : 0
+    post.likes_counter.present? ? post.likes_counter : 0
   end
 end
