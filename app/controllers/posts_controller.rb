@@ -10,7 +10,7 @@ class PostsController < ApplicationController
     @comments = Comment.where(post_id: params[:id])
   end
 
-    def new
+  def new
     @post = Post.new
   end
 
