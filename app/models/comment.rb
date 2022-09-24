@@ -3,6 +3,6 @@ class Comment < ApplicationRecord
   belongs_to :author, class_name: 'User'
 
   def update_comments_counter
-    post.increment!(:comments_counter)
+    post.increment!(:CommentsCounter)
   end
 end
