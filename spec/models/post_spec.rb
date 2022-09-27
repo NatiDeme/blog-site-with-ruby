@@ -2,9 +2,9 @@ require 'rails_helper' # Return character is CR+LF on Windows.
 
 RSpec.describe Post, type: :model do
   describe 'Validations' do
-    user1 = User.create(Name: 'Hailu', Bio: 'Hello! My name is King Hailu.', PostCounter: 0)
+    user1 = User.create(name: 'Hailu', bio: 'Hello! My name is King Hailu.', postCounter: 0)
     subject do
-      Post.new(Title: 'My post', Text: 'Hello! My name is King Hailu.', author_id: user1, CommentsCounter: 2, LikesCounter: 2)
+      Post.new(title: 'My post', text: 'Hello! My name is King Hailu.', author_id: user1, commentsCounter: 2, LikesCounter: 2)
     end
 
     before { subject.save }
