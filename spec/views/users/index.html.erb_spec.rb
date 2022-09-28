@@ -2,7 +2,8 @@ require 'rails_helper'
 
 RSpec.describe 'users/index.html.erb', type: :feature do
   before :each do
-    @user = User.first
+    @user1 = User.create(name: 'Tomm', photo: 'https://www.w3schools.com/images/w3schools_green.jpg', bio: 'Mechanic',
+                         posts_counter: 0)
   end
   describe 'index page' do
     it 'shows the Number of posts' do
@@ -11,8 +12,7 @@ RSpec.describe 'users/index.html.erb', type: :feature do
     end
     it 'shows the list of users' do
       visit root_path
-      expect(page).to have_content('Lilly')
-      expect(page).to have_content('Tom')
+      expect(page).to have_content('Tomm')
     end
     it 'shows the user picture' do
       visit root_path
@@ -20,8 +20,8 @@ RSpec.describe 'users/index.html.erb', type: :feature do
   end
   it 'Redirects to show page' do
       visit root_path
-      click_link "Tom"
-      expect(page).to have_content('Tom')
+      click_link "Tomm"
+      expect(page).to have_content('Tomm')
   end
   end
 end
