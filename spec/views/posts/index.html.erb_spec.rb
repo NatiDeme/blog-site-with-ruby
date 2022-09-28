@@ -30,6 +30,9 @@ RSpec.describe 'posts/index.html.erb', type: :feature do
     it 'shows the Number of Likes' do
       expect(page).to have_content('likes')
     end
+    it 'shows the Number of Posts' do
+      expect(page).to have_content('Number of posts')
+    end
     it 'shows Pagination' do
       expect(page).to have_content('Pagination')
     end

@@ -13,7 +13,7 @@
 
 <div class="comments border">
 <% @comments.each do |comment| %>
-   <p><%= comment.text%></p>
+   <p><%= comment.author.name%>: <%= comment.text%></p>
 <%end%>
 </div>
 <div class="comment-text">
