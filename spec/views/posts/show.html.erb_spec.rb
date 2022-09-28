@@ -19,5 +19,4 @@ RSpec.describe 'posts/show.html.erb', type: :feature do
       expect(page).to have_content('Hello')
     end
   end
-
 end

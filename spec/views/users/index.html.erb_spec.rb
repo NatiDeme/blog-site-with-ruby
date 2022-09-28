@@ -17,11 +17,11 @@ RSpec.describe 'users/index.html.erb', type: :feature do
     it 'shows the user picture' do
       visit root_path
       expect(page).to have_css('img')
-  end
-  it 'Redirects to show page' do
+    end
+    it 'Redirects to show page' do
       visit root_path
-      click_link "Tomm"
+      click_link 'Tomm'
       expect(page).to have_content('Tomm')
-  end
+    end
   end
 end
