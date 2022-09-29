@@ -14,6 +14,19 @@
  *= require_self
  */
 
+.field [type="email"] {
+  width: 50%;
+  height: 20px;
+}
+.field [type="password"] {
+  width: 50%;
+  height: 20px;
+}
+.actions button {
+  padding: 20px;
+  background-color: white;
+}
+
 .user-cont {
   display: flex;
   justify-content: space-between;
