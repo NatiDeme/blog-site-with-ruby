@@ -18,6 +18,10 @@
   width: 50%;
   height: 20px;
 }
+.field [type="text"] {
+  width: 50%;
+  height: 20px;
+}
 .field [type="password"] {
   width: 50%;
   height: 20px;
