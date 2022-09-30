@@ -5,14 +5,14 @@ class Ability
 
   def initialize(user)
 
-    can :read, Post, public: true
-
-    return unless user.present?  # additional permissions for logged in users (they can read their own posts)
-    can :read, Post, user: user
-
-    return unless user.admin?  # additional permissions for administrators
-    can :read, Post
-
+    user ||= User.new # guest user (not logged in)
+    if user.role == 'admin'
+      can :manage, :all
+    else
+      can :manage, Comment, author_id: user.id
+      can :manage, Post, author_id: user.id
+      can :read, :all
+    end
     
     # Define abilities for the user here. For example:
     #
