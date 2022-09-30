@@ -30,7 +30,7 @@ class PostsController < ApplicationController
     end
   end
 
-   def destroy
+  def destroy
     @post = Post.find(params[:id])
     user = User.find(params[:user_id])
     user.posts_counter -= 1
