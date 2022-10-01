@@ -4,6 +4,18 @@ Rails.application.routes.draw do
   # get '/users/:id', to: 'users#show', as: 'user'
   # get '/users/:user_id/posts', to: 'posts#index', as: 'user_posts'
   # get '/users/:user_id/posts/:id', to: 'posts#show', as: 'user_post'
+  namespace :api , defaults: { format: :json } do
+    namespace :v1 do
+      post 'users/sign_in' => 'users#login'
+      get 'posts' => 'posts#index'
+      get 'comments' => 'comments#index'
+      post 'comments/create' => 'comments#create'
+    end
+  end
+
+  devise_scope :user do 
+    get '/users/sign_out' => 'devise/sessions#destroy' 
+  end
   root 'users#index'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
